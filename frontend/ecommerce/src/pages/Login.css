@@ -1,0 +1,98 @@
+/* Container for Login & Register */
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 80px;
+}
+
+/* Heading */
+.auth-container h2 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+/* Description Text */
+.auth-container p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Success & Error Messages */
+.auth-message {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: green;
+}
+
+.auth-error {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: red;
+}
+
+/* Form */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+/* Inputs */
+.auth-form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: border 0.3s ease;
+}
+
+.auth-form input:focus {
+  border-color: #2980b9;
+  outline: none;
+}
+
+/* Button */
+.auth-form button {
+  padding: 12px;
+  border-radius: 6px;
+  background: #2c3e50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.auth-form button:hover {
+  background: #34495e;
+  transform: scale(1.03);
+}
+
+/* Footer Text */
+.auth-footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Link */
+.auth-link {
+  color: #2980b9;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.auth-link:hover {
+  color: #1e6a99;
+  text-decoration: underline;
+}

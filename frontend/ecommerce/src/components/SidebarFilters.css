@@ -1,0 +1,168 @@
+/* Sidebar container */
+.sidebar {
+  width: 280px;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 1.5rem;
+  background: #f8fafc;
+  border-right: 1px solid #e2e8f0;
+  position: sticky;
+  top: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main heading */
+.sidebar-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #3b82f6;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Section container */
+.sidebar-section {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+}
+
+/* Subheading */
+.sidebar-subheading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.sidebar-subheading::before {
+  content: "→";
+  color: #3b82f6;
+  font-weight: bold;
+}
+
+/* Labels */
+.sidebar-label {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0;
+  cursor: pointer;
+  color: #475569;
+  transition: color 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.sidebar-label:hover {
+  color: #3b82f6;
+}
+
+/* Inputs */
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 0.5rem;
+  accent-color: #3b82f6;
+  cursor: pointer;
+}
+
+/* Text & number inputs */
+.sidebar-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: border-color 0.2s ease;
+}
+
+.sidebar-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Dropdown */
+.sidebar-select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  background: white;
+  font-size: 0.9rem;
+  color: #475569;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.sidebar-select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Buttons */
+.sidebar-button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-size: 0.95rem;
+}
+
+.sidebar-button:hover {
+  background: #2563eb;
+}
+
+/* Clear button */
+.clear-btn {
+  background: #ef4444;
+  margin-top: 1rem;
+}
+
+.clear-btn:hover {
+  background: #dc2626;
+}
+
+/* Scrollbar */
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-right: none;
+    border-bottom: 1px solid #e2e8f0;
+  }
+}

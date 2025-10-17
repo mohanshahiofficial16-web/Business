@@ -1,0 +1,56 @@
+.admin-tabs {
+  margin-bottom: 15px;
+}
+.admin-tabs button {
+  padding: 8px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.admin-tabs .active {
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.analytics-cards {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.analytics-cards .card {
+  flex: 1;
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.analytics-cards .card h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+.analytics-cards .card p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.admin-table th,
+.admin-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+.delete-btn {
+  background: red;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 5px;
+  border: none;
+  cursor: pointer;
+}
